@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DemoForArrk</string>
+    <string name="try_again_msg">Try again!</string>
+    <string name="list_end_msg">List End!</string>
+    <string name="error_msg">Something went wrong!</string>
+    <string name="fetching_msg">fetching data&#8230;</string>
+    <string name="label_name">Name</string>
+    <string name="label_height">Height in meters</string>
+    <string name="label_mass">Mass in kgs</string>
+    <string name="label_created">Date / Time</string>
+</resources>

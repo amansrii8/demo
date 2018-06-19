@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/container_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+    <TextView
+        android:id="@+id/textview_label_name"
+        android:layout_width="@dimen/layout_margin_0"
+        android:layout_height="wrap_content"
+        android:text="@string/label_name"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/label_text"
+        android:layout_marginBottom="@dimen/layout_margin_4"
+        android:layout_marginLeft="@dimen/layout_margin_8"
+        android:layout_marginRight="@dimen/layout_margin_8"
+        android:layout_marginTop="@dimen/layout_margin_8"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/textview_name"
+        android:layout_width="@dimen/layout_margin_0"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/data_value_text"
+        android:layout_marginBottom="@dimen/layout_margin_4"
+        android:layout_marginLeft="@dimen/layout_margin_8"
+        android:layout_marginRight="@dimen/layout_margin_8"
+        android:layout_marginTop="@dimen/layout_margin_8"
+        android:layout_weight="3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textview_label_height"
+            android:layout_width="@dimen/layout_margin_0"
+            android:layout_height="wrap_content"
+            android:text="@string/label_height"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/label_text"
+            android:layout_marginBottom="@dimen/layout_margin_4"
+            android:layout_marginLeft="@dimen/layout_margin_8"
+            android:layout_marginRight="@dimen/layout_margin_8"
+            android:layout_marginTop="@dimen/layout_margin_8"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/textview_height"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/data_value_text"
+            android:layout_marginBottom="@dimen/layout_margin_4"
+            android:layout_marginLeft="@dimen/layout_margin_8"
+            android:layout_marginRight="@dimen/layout_margin_8"
+            android:layout_marginTop="@dimen/layout_margin_8"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textview_label_mass"
+            android:layout_width="@dimen/layout_margin_0"
+            android:layout_height="wrap_content"
+            android:text="@string/label_mass"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/label_text"
+            android:layout_marginBottom="@dimen/layout_margin_4"
+            android:layout_marginLeft="@dimen/layout_margin_8"
+            android:layout_marginRight="@dimen/layout_margin_8"
+            android:layout_marginTop="@dimen/layout_margin_8"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/textview_mass"
+            android:layout_width="@dimen/layout_margin_0"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/data_value_text"
+            android:layout_marginBottom="@dimen/layout_margin_4"
+            android:layout_marginLeft="@dimen/layout_margin_8"
+            android:layout_marginRight="@dimen/layout_margin_8"
+            android:layout_marginTop="@dimen/layout_margin_8"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textview_label_date"
+            android:layout_width="@dimen/layout_margin_0"
+            android:layout_height="wrap_content"
+            android:text="@string/label_created"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/label_text"
+            android:layout_marginBottom="@dimen/layout_margin_4"
+            android:layout_marginLeft="@dimen/layout_margin_8"
+            android:layout_marginRight="@dimen/layout_margin_8"
+            android:layout_marginTop="@dimen/layout_margin_8"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/textview_date"
+            android:layout_width="@dimen/layout_margin_0"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/data_value_text"
+            android:layout_marginBottom="@dimen/layout_margin_4"
+            android:layout_marginLeft="@dimen/layout_margin_8"
+            android:layout_marginRight="@dimen/layout_margin_8"
+            android:layout_marginTop="@dimen/layout_margin_8"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+</LinearLayout>
